@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.dustley.divinity.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "nivora.LivingEntityMixin",
+    "nivora.PlayerEntityMixin"
+  ],
+  "client": [
+    "nivora.PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
