@@ -1,9 +1,9 @@
 package net.dustley.divinity.registry;
 
 import net.dustley.divinity.Divinity;
-import net.dustley.divinity.content.catena.CatenaEntity;
-import net.dustley.divinity.content.catena.CatenaEntityModel;
-import net.dustley.divinity.content.catena.CatenaEntityRenderer;
+import net.dustley.divinity.content.defense.catena.CatenaEntity;
+import net.dustley.divinity.content.defense.catena.render.CatenaEntityModel;
+import net.dustley.divinity.content.defense.catena.render.CatenaEntityRenderer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;

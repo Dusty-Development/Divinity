@@ -1,6 +1,6 @@
 package net.dustley.divinity.mixin.nivora;
 
-import net.dustley.divinity.content.nivora.NivoraInstance;
+import net.dustley.divinity.content.critter.nivora.NivoraInstance;
 import net.dustley.divinity.mixin_duck.INivora;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;

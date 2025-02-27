@@ -1,6 +1,8 @@
 package net.dustley.divinity;
 
 import net.dustley.divinity.registry.ModEntities;
+import net.dustley.divinity.registry.ModItems;
+import net.dustley.divinity.registry.ModNetworking;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 
@@ -17,6 +19,8 @@ public class Divinity implements ModInitializer {
     public void onInitialize() {
 
         ModEntities.onInit();
+        ModItems.registerModItems();
+        ModNetworking.onInit();
 
     }
 }

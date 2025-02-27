@@ -4,10 +4,12 @@
   "package": "net.dustley.divinity.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "catena.NoMoveMixin",
     "nivora.LivingEntityMixin",
     "nivora.PlayerEntityMixin"
   ],
   "client": [
+    "catena.ArmPoseMixin",
     "nivora.PlayerEntityRendererMixin"
   ],
   "injectors": {

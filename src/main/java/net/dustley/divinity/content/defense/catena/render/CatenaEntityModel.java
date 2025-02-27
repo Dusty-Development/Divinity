@@ -1,6 +1,7 @@
-package net.dustley.divinity.content.catena;
+package net.dustley.divinity.content.defense.catena.render;
 
 import net.dustley.divinity.Divinity;
+import net.dustley.divinity.content.defense.catena.CatenaEntity;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.EntityModel;
@@ -31,7 +32,6 @@ public class CatenaEntityModel extends EntityModel<CatenaEntity> {
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertices, int light, int overlay, int color) {
 		main.render(matrices, vertices, light, overlay, color);
-
 	}
 
 }
